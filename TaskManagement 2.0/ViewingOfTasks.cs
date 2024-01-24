@@ -26,13 +26,14 @@ namespace TaskManagement_2._0
                 {
                     Console.WriteLine();
                     split = line.Split(',');
+
                     if (numbering == 0)
                     {
                         Console.Write("   ");
                     }
                     else
                     {
-                        Console.Write(indexes + "  "); // Move this line before printing the line
+                        Console.Write(indexes + "  ");
                     }
                     indexes++;
                     for (int i = 0; i < split.Length; i++)
@@ -42,7 +43,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 24; len++)
+                                for (int len = split[i].Length; len < 23; len++)
                                 {
                                     Console.Write(' ');
                                 }
@@ -96,7 +97,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 24; len++)
+                                for (int len = split[i].Length; len < 23; len++)
                                 {
                                     Console.Write(' ');
                                 }
@@ -148,7 +149,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 24; len++)
+                                for (int len = split[i].Length; len < 23; len++)
                                 {
                                     Console.Write(' ');
                                 }

@@ -14,7 +14,7 @@ namespace TaskManagement_2._0
         {
             CSV_Creation CSV = new CSV_Creation();
             List<string[]> resultsVerification = CSV.CreateInfo(fileVerification, 5);
-            List<string[]> results = CSV.CreateInfo("TaskLog.csv", 5);
+            List<string[]> results = CSV.CreateInfo("TaskLog.csv", 6);
             DateTime DandT = DateTime.Now;
             string DaT = DandT.ToString();
             string[] VerificationLog = new string[5];

@@ -15,7 +15,7 @@ namespace TaskManagement_2._0
         public static void ClosingTask()
         {
             CSV_Creation CSV = new CSV_Creation();
-            List<string[]> result = CSV.CreateInfo(file, 5);
+            List<string[]> result = CSV.CreateInfo(file, 6);
             DateTime DandT = DateTime.Now;
             string DaT = DandT.ToString();
 
@@ -28,7 +28,7 @@ namespace TaskManagement_2._0
 
         private static int Index(CSV_Creation CSV, int items)
         {
-            List<string[]> database = CSV.CreateInfo(file, 5);
+            List<string[]> database = CSV.CreateInfo(file, 6);
             int index = 0;
 
             Console.Clear();
