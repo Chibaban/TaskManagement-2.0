@@ -201,7 +201,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 24; len++)
+                                for (int len = split[i].Length; len < 23; len++)
                                 {
                                     Console.Write(' ');
                                 }

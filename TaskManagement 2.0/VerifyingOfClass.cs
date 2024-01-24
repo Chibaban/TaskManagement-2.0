@@ -13,11 +13,11 @@ namespace TaskManagement_2._0
         public static void VerifyingClass()
         {
             CSV_Creation CSV = new CSV_Creation();
-            List<string[]> resultsVerification = CSV.CreateInfo(fileVerification, 5);
+            List<string[]> resultsVerification = CSV.CreateInfo(fileVerification, 6);
             List<string[]> results = CSV.CreateInfo("TaskLog.csv", 6);
             DateTime DandT = DateTime.Now;
             string DaT = DandT.ToString();
-            string[] VerificationLog = new string[5];
+            string[] VerificationLog = new string[6];
 
             int index = 0;
 
@@ -58,6 +58,7 @@ namespace TaskManagement_2._0
             VerificationLog[2] = status;
             VerificationLog[3] = details;
             VerificationLog[4] = comments;
+            VerificationLog[5] = index.ToString();
 
             resultsVerification.Add(VerificationLog);
             CSV.CreateTask(resultsVerification, "TaskLogVerification.csv");
