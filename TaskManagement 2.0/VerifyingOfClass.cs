@@ -40,7 +40,8 @@ namespace TaskManagement_2._0
             Console.WriteLine("Choose a verification status for this task: ");
             Console.WriteLine("\nA - Verified");
             Console.WriteLine("B - For Revision");
-            Console.Write("\nType your preferred letter: ");
+
+            Console.Write("\nType your preferred letter (You can press enter or type anything and it will be automatically put that task in for verification): ");
 
             string uInput = Console.ReadLine().ToUpper();
             string status = Status(uInput);

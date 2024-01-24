@@ -194,7 +194,7 @@ namespace TaskManagement_2._0
                     }
                     else
                     {
-                        Console.Write(indexes + "  "); // Move this line before printing the line
+                        Console.Write(indexes + "  "); 
                     }
                     indexes++;
                     for (int i = 0; i < split.Length; i++)
