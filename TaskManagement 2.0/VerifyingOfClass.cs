@@ -62,6 +62,9 @@ namespace TaskManagement_2._0
 
             resultsVerification.Add(VerificationLog);
             CSV.CreateTask(resultsVerification, "TaskLogVerification.csv");
+
+            Console.WriteLine("\nYou've finish the last part of the task! You may visit the other features that has been listed below.\nPress any key to continue...");
+            Console.ReadKey();
             Start.Initiate();
         }
 

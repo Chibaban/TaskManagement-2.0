@@ -23,6 +23,9 @@ namespace TaskManagement_2._0
             string status = Status();
             result = Processing(result, index, status, DaT);
             CSV.CreateTask(result, file);
+
+            Console.WriteLine("\nYou may now proceed to verifying the task that you've just closed!\nPress any key to continue...");
+            Console.ReadKey();
             Start.Initiate();
         }
 

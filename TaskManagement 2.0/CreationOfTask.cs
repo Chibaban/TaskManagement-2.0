@@ -38,6 +38,9 @@ namespace TaskManagement_2._0
             string[] features = new string[6] { task, name, DaT, "NULL", status, comments };
             result.Add(features);
             CSV.CreateTask(result, file);
+
+            Console.WriteLine("\nTask added to the list! You must first finish the task before verifying it. \nPress any key to continue...");
+            Console.ReadKey();
             Start.Initiate();
         }
     }

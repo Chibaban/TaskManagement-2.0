@@ -43,7 +43,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 23; len++)
+                                for (int len = split[i].Length; len < 20; len++)
                                 {
                                     Console.Write(' ');
                                 }
@@ -55,6 +55,7 @@ namespace TaskManagement_2._0
                                     Console.Write(' ');
                                 }
                             }
+                            Console.Write("  ");
                         }
                         numbering++;
                     }
@@ -97,7 +98,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 23; len++)
+                                for (int len = split[i].Length; len < 20; len++)
                                 {
                                     Console.Write(' ');
                                 }
@@ -109,6 +110,7 @@ namespace TaskManagement_2._0
                                     Console.Write(' ');
                                 }
                             }
+                            Console.Write("  ");
                         }
                         numbering++;
                     }
@@ -149,7 +151,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 23; len++)
+                                for (int len = split[i].Length; len < 20; len++)
                                 {
                                     Console.Write(' ');
                                 }
@@ -161,6 +163,7 @@ namespace TaskManagement_2._0
                                     Console.Write(' ');
                                 }
                             }
+                            Console.Write("  ");
                         }
                         numbering++;
                     }
@@ -201,7 +204,7 @@ namespace TaskManagement_2._0
                         {
                             if (i != 4)
                             {
-                                for (int len = split[i].Length; len < 23; len++)
+                                for (int len = split[i].Length; len < 19; len++)
                                 {
                                     Console.Write(' ');
                                 }
@@ -213,6 +216,7 @@ namespace TaskManagement_2._0
                                     Console.Write(' ');
                                 }
                             }
+                            Console.Write("  ");
                         }
                         numbering++;
                     }
