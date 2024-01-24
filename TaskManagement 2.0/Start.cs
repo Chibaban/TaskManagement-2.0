@@ -31,7 +31,7 @@ namespace TaskManagement_2._0
                     ClosingOfTask.ClosingTask();
                     break; 
                 case "C":
-                    VerifyingOfClass.VerifyingClass();
+                    VerifyingOfTask.VerifyingClass();
                     break;
                 case "D":
                     ViewingOfTasks.ViewingTasks();

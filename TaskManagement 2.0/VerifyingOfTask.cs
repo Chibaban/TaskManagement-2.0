@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TaskManagement_2._0
 {
-    internal class VerifyingOfClass
+    internal class VerifyingOfTask
     {
         static string fileVerification = "TaskLogVerification.csv";
         public static void VerifyingClass()
