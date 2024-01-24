@@ -66,13 +66,6 @@ namespace TaskManagement_2._0
             }
         }
 
-        public static List<string[]> Processing(List<string[]> result, int index, string DaT, string status)
-        {
-            result[index][3] = DaT;
-            result[index][4] = status;
-            return result;
-        }
-
         public int Indexes()
         {
             List<string> result = new List<string>();
