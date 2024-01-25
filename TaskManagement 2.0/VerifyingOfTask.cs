@@ -9,11 +9,10 @@ namespace TaskManagement_2._0
 {
     internal class VerifyingOfTask
     {
-        static string fileVerification = "TaskLogVerification.csv";
         public static void VerifyingClass()
         {
             CSV_Creation CSV = new CSV_Creation();
-            List<string[]> resultsVerification = CSV.CreateInfo(fileVerification, 6);
+            List<string[]> resultsVerification = CSV.CreateInfo("TaskLogVerification.csv", 6);
             List<string[]> results = CSV.CreateInfo("TaskLog.csv", 6);
             DateTime DandT = DateTime.Now;
             string DaT = DandT.ToString();

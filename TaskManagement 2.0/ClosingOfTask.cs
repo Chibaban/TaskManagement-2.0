@@ -29,7 +29,7 @@ namespace TaskManagement_2._0
             Start.Initiate();
         }
 
-        private static int Index(CSV_Creation CSV, int items)
+        private static int Index(CSV_Creation CSV, int tasks)
         {
             List<string[]> database = CSV.CreateInfo(file, 6);
             int index = 0;
@@ -41,7 +41,7 @@ namespace TaskManagement_2._0
             do
             {
                 Console.Write("Pick a number to close the task: ");
-            } while (!int.TryParse(Console.ReadLine(), out index) || index <= 0 || index > items || database[index][3] != "NULL");
+            } while (!int.TryParse(Console.ReadLine(), out index) || index <= 0 || index > tasks);
 
             return index;
         }

@@ -33,7 +33,6 @@ namespace TaskManagement_2._0
             string comments = Console.ReadLine().ToUpper();
 
             result = CSV.CreateInfo(file, 6);
-            int tasks = CSV.Tasks();
 
             string[] features = new string[6] { task, name, DaT, "NULL", status, comments };
             result.Add(features);

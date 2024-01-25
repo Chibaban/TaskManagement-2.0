@@ -18,6 +18,7 @@ namespace TaskManagement_2._0
             Console.WriteLine("C - Verifying Task");
             Console.WriteLine("D - Viewing Tasks");
             Console.WriteLine("E - Verification Status");
+            Console.WriteLine("F - Close the Application");
             Console.Write("\nType your preferred letter: ");
 
             string uInput = Console.ReadLine().ToUpper();
@@ -38,6 +39,8 @@ namespace TaskManagement_2._0
                     break;
                 case "E":
                     ViewingOfTasks.ViewingVerifiedTasks();
+                    break;
+                case "F":
                     break;
                 default:
                     Initiate();

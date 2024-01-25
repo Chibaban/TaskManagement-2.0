@@ -28,22 +28,6 @@ namespace TaskManagement_2._0
             return result;
         }
 
-        public int Tasks()
-        {
-            int tasks = 0;
-
-            using (StreamReader reader = new StreamReader("TaskLog.csv"))
-            {
-                string line = "";
-                while ((line = reader.ReadLine()) != null)
-                {
-                    tasks++;
-                }
-            }
-
-            return tasks;
-        }
-
         public void CreateTask(List<string[]> result, string file)
         {
             using (StreamWriter writer = new StreamWriter(file))
